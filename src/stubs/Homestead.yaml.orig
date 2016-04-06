@@ -12,11 +12,10 @@ keys:
 folders:
     - map: ~/Code
       to: /home/vagrant/Code
-      type: nfs
 
 sites:
-    - map: ability.app
-      to: /home/vagrant/Code/ability-web/public
+    - map: homestead.app
+      to: /home/vagrant/Code/Laravel/public
 
 databases:
     - homestead
