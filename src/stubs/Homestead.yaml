@@ -17,6 +17,8 @@ folders:
 sites:
     - map: ability.app
       to: /home/vagrant/Code/ability-web/public
+    - map: msweb-test.app
+      to: /home/vagrant/Code/msweb-test/public
 
 databases:
     - homestead
