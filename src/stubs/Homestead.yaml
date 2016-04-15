@@ -19,6 +19,12 @@ sites:
       to: /home/vagrant/Code/ability-web/public
     - map: msweb-test.app
       to: /home/vagrant/Code/msweb-test/public
+      port: 3000
+      
+ports:
+    - guest: 3000
+      host: 3000
+      protocal: tcp
 
 databases:
     - homestead
